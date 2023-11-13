@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Background1.png" />
+    <None Remove="bird2gif.gif" />
+    <None Remove="pipeBottom.png" />
+    <None Remove="pipeTop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Background1.png" />
+    <Resource Include="bird2gif.gif" />
+    <Resource Include="pipeBottom.png" />
+    <Resource Include="pipeTop.png" />
+  </ItemGroup>
+
+</Project>
